@@ -1,4 +1,4 @@
-/*! For license information please see main.b62f2b7c.js.LICENSE.txt */
+/*! For license information please see main.913c45a8.js.LICENSE.txt */
 !(function () {
   var e = {
       7757: function (e, t, n) {
@@ -24,7 +24,7 @@
                 FAST_REFRESH: !0,
               }.REACT_APP_BACKEND_URL) && void 0 !== r
               ? r
-              : 'https://conduit.productionready.io/api';
+              : 'https://node-express-realworld-example-app-dmng.onrender.com/api';
         function f(e) {
           var t = [];
           for (var n in e)
@@ -19679,4 +19679,4 @@
   })(),
     (r = n.O(r));
 })();
-//# sourceMappingURL=main.b62f2b7c.js.map
+//# sourceMappingURL=main.913c45a8.js.map

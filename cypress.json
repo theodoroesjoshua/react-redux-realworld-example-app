@@ -1,7 +1,7 @@
 {
   "baseUrl": "http://localhost:4100",
   "env": {
-    "apiUrl": "https://conduit.productionready.io/api",
+    "apiUrl": "https://node-express-realworld-example-app-dmng.onrender.com/api",
     "username": "warren_boyd",
     "email": "warren.boyd@mailinator.com",
     "password": "Pa$$w0rd!"

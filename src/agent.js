@@ -1,5 +1,6 @@
 const API_ROOT =
-  process.env.REACT_APP_BACKEND_URL ?? 'https://conduit.productionready.io/api';
+  process.env.REACT_APP_BACKEND_URL ??
+  'https://node-express-realworld-example-app-dmng.onrender.com/api';
 
 /**
  * Serialize object to URL params
