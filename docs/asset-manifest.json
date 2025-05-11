@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/angular-realworld-example-app/docs/static/js/main.71573ad9.js",
-    "Article.js": "/angular-realworld-example-app/docs/static/js/Article.61b18a50.chunk.js",
-    "Editor.js": "/angular-realworld-example-app/docs/static/js/Editor.879133e2.chunk.js",
-    "AuthScreen.js": "/angular-realworld-example-app/docs/static/js/AuthScreen.579e38da.chunk.js",
-    "Profile.js": "/angular-realworld-example-app/docs/static/js/Profile.760d850c.chunk.js",
-    "SettingsScreen.js": "/angular-realworld-example-app/docs/static/js/SettingsScreen.44fcfdf4.chunk.js",
-    "CommentSection.js": "/angular-realworld-example-app/docs/static/js/CommentSection.a7ff71b6.chunk.js",
-    "static/js/644.f257085e.chunk.js": "/angular-realworld-example-app/docs/static/js/644.f257085e.chunk.js",
-    "index.html": "/angular-realworld-example-app/docs/index.html",
-    "main.71573ad9.js.map": "/angular-realworld-example-app/docs/static/js/main.71573ad9.js.map",
-    "Article.61b18a50.chunk.js.map": "/angular-realworld-example-app/docs/static/js/Article.61b18a50.chunk.js.map",
-    "Editor.879133e2.chunk.js.map": "/angular-realworld-example-app/docs/static/js/Editor.879133e2.chunk.js.map",
-    "AuthScreen.579e38da.chunk.js.map": "/angular-realworld-example-app/docs/static/js/AuthScreen.579e38da.chunk.js.map",
-    "Profile.760d850c.chunk.js.map": "/angular-realworld-example-app/docs/static/js/Profile.760d850c.chunk.js.map",
-    "SettingsScreen.44fcfdf4.chunk.js.map": "/angular-realworld-example-app/docs/static/js/SettingsScreen.44fcfdf4.chunk.js.map",
-    "CommentSection.a7ff71b6.chunk.js.map": "/angular-realworld-example-app/docs/static/js/CommentSection.a7ff71b6.chunk.js.map",
-    "644.f257085e.chunk.js.map": "/angular-realworld-example-app/docs/static/js/644.f257085e.chunk.js.map"
+    "main.js": "/angular-realworld-example-app/static/js/main.1cb7acde.js",
+    "Article.js": "/angular-realworld-example-app/static/js/Article.61b18a50.chunk.js",
+    "Editor.js": "/angular-realworld-example-app/static/js/Editor.879133e2.chunk.js",
+    "AuthScreen.js": "/angular-realworld-example-app/static/js/AuthScreen.579e38da.chunk.js",
+    "Profile.js": "/angular-realworld-example-app/static/js/Profile.760d850c.chunk.js",
+    "SettingsScreen.js": "/angular-realworld-example-app/static/js/SettingsScreen.44fcfdf4.chunk.js",
+    "CommentSection.js": "/angular-realworld-example-app/static/js/CommentSection.a7ff71b6.chunk.js",
+    "static/js/644.f257085e.chunk.js": "/angular-realworld-example-app/static/js/644.f257085e.chunk.js",
+    "index.html": "/angular-realworld-example-app/index.html",
+    "main.1cb7acde.js.map": "/angular-realworld-example-app/static/js/main.1cb7acde.js.map",
+    "Article.61b18a50.chunk.js.map": "/angular-realworld-example-app/static/js/Article.61b18a50.chunk.js.map",
+    "Editor.879133e2.chunk.js.map": "/angular-realworld-example-app/static/js/Editor.879133e2.chunk.js.map",
+    "AuthScreen.579e38da.chunk.js.map": "/angular-realworld-example-app/static/js/AuthScreen.579e38da.chunk.js.map",
+    "Profile.760d850c.chunk.js.map": "/angular-realworld-example-app/static/js/Profile.760d850c.chunk.js.map",
+    "SettingsScreen.44fcfdf4.chunk.js.map": "/angular-realworld-example-app/static/js/SettingsScreen.44fcfdf4.chunk.js.map",
+    "CommentSection.a7ff71b6.chunk.js.map": "/angular-realworld-example-app/static/js/CommentSection.a7ff71b6.chunk.js.map",
+    "644.f257085e.chunk.js.map": "/angular-realworld-example-app/static/js/644.f257085e.chunk.js.map"
   },
-  "entrypoints": ["static/js/main.71573ad9.js"]
+  "entrypoints": ["static/js/main.1cb7acde.js"]
 }
