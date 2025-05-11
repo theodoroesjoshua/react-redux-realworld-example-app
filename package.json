@@ -2,7 +2,7 @@
   "name": "react-redux-realworld-example-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://theodoroesjoshua.github.io/angular-realworld-example-app",
+  "homepage": ".",
   "devDependencies": {
     "@cypress/code-coverage": "^3.10.4",
     "@cypress/instrument-cra": "^1.4.0",
@@ -42,8 +42,6 @@
     "xss": "^1.0.14"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "cross-env PORT=4100 react-scripts start",
     "start:e2e": "cross-env PORT=4100 BROWSER=none react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
