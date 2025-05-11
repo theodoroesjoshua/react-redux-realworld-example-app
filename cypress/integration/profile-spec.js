@@ -27,7 +27,7 @@ describe('Profile page', () => {
       .as('getArticlesByAuthor')
       .visit('/')
       .login()
-      .visit(`/@${username}`)
+      .visit(`/${username}`)
       .wait(['@getCurrentUser', '@getProfile', '@getArticlesByAuthor']);
   });
 

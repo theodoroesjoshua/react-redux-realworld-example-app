@@ -143,7 +143,7 @@ describe('Navigation (authenticated)', () => {
       })
       .click();
 
-    cy.location('pathname').should('equal', `/@${Cypress.env('username')}`);
+    cy.location('pathname').should('equal', `/${Cypress.env('username')}`);
 
     cy.get('.user-info').within(() => {
       cy.findByRole('img', Cypress.env('username')).should('be.visible');
@@ -184,7 +184,7 @@ describe('Navigation (authenticated)', () => {
 
     cy.location('pathname').should(
       'equal',
-      `/@${Cypress.env('username')}/favorites`
+      `${Cypress.env('username')}/favorites`
     );
   });
 });

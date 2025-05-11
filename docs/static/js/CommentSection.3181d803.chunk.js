@@ -81,7 +81,7 @@
               className: 'card-footer',
               children: [
                 (0, d.jsx)(c.rU, {
-                  to: '/@'.concat(t.author.username),
+                  to: '/'.concat(t.author.username),
                   className: 'comment-author',
                   children: (0, d.jsx)('img', {
                     className: 'comment-author-img',
@@ -94,7 +94,7 @@
                 }),
                 '\xa0',
                 (0, d.jsx)(c.rU, {
-                  to: '/@'.concat(t.author.username),
+                  to: '/'.concat(t.author.username),
                   className: 'comment-author',
                   children: t.author.username,
                 }),
@@ -221,4 +221,4 @@
     },
   },
 ]);
-//# sourceMappingURL=CommentSection.a7ff71b6.chunk.js.map
+//# sourceMappingURL=CommentSection.3181d803.chunk.js.map

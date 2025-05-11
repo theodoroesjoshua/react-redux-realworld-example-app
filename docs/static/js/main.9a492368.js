@@ -1,4 +1,4 @@
-/*! For license information please see main.38b7d749.js.LICENSE.txt */
+/*! For license information please see main.9a492368.js.LICENSE.txt */
 !(function () {
   var e = {
       7757: function (e, t, n) {
@@ -268,7 +268,7 @@
                 className: 'article-meta',
                 children: [
                   (0, u.jsx)(o.rU, {
-                    to: '/@'.concat(t.author.username),
+                    to: '/'.concat(t.author.username),
                     children: (0, u.jsx)('img', {
                       src:
                         t.author.image ||
@@ -281,7 +281,7 @@
                     children: [
                       (0, u.jsx)(o.rU, {
                         className: 'author',
-                        to: '/@'.concat(t.author.username),
+                        to: '/'.concat(t.author.username),
                         children: t.author.username,
                       }),
                       (0, u.jsx)('time', {
@@ -18833,13 +18833,13 @@
         }[e] || e) +
         '.' +
         {
-          97: '760d850c',
+          97: 'b8d3de24',
           196: '879133e2',
           546: '44fcfdf4',
-          571: 'a7ff71b6',
+          571: '3181d803',
           610: '579e38da',
           644: 'f257085e',
-          951: '61b18a50',
+          951: '5a40205b',
         }[e] +
         '.chunk.js'
       );
@@ -19297,7 +19297,7 @@
           (0, u.jsx)('li', {
             className: 'nav-item',
             children: (0, u.jsxs)(a.rU, {
-              to: '/@'.concat(null === e || void 0 === e ? void 0 : e.username),
+              to: '/'.concat(null === e || void 0 === e ? void 0 : e.username),
               className: 'nav-link',
               children: [
                 (0, u.jsx)('img', {
@@ -19407,11 +19407,11 @@
                         element: (0, u.jsx)(H, {}),
                       }),
                       (0, u.jsx)(o.AW, {
-                        path: '/@:username/favorites',
+                        path: '/:username/favorites',
                         element: (0, u.jsx)(Z, { isFavoritePage: !0 }),
                       }),
                       (0, u.jsx)(o.AW, {
-                        path: '/@:username',
+                        path: '/:username',
                         element: (0, u.jsx)(Z, {}),
                       }),
                     ],
@@ -19698,4 +19698,4 @@
   })(),
     (r = n.O(r));
 })();
-//# sourceMappingURL=main.38b7d749.js.map
+//# sourceMappingURL=main.9a492368.js.map

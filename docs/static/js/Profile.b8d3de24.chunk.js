@@ -95,7 +95,7 @@
                 className: 'nav-item',
                 children: (0, m.jsx)(i.rU, {
                   className: n ? 'nav-link' : 'nav-link active',
-                  to: '/@'.concat(s),
+                  to: '/'.concat(s),
                   children: 'My Articles',
                 }),
               }),
@@ -103,7 +103,7 @@
                 className: 'nav-item',
                 children: (0, m.jsx)(i.rU, {
                   className: n ? 'nav-link active' : 'nav-link',
-                  to: '/@'.concat(s, '/favorites'),
+                  to: '/'.concat(s, '/favorites'),
                   children: 'Favorited Articles',
                 }),
               }),
@@ -167,4 +167,4 @@
     },
   },
 ]);
-//# sourceMappingURL=Profile.760d850c.chunk.js.map
+//# sourceMappingURL=Profile.b8d3de24.chunk.js.map

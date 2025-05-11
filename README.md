@@ -64,7 +64,7 @@ The example application is a social blogging site (i.e. a Medium.com clone) call
   - Render markdown from server client side
   - Comments section at bottom of page
   - Delete comment button (only shown to comment's author)
-- Profile page (URL: /#/@username, /#/@username/favorites )
+- Profile page (URL: /#/username, /#/username/favorites )
   - Show basic user info
   - List of articles populated from author's created articles or author's favorited articles
 

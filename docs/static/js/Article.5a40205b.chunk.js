@@ -64,7 +64,7 @@
               className: 'article-meta',
               children: [
                 (0, x.jsx)(u.rU, {
-                  to: '/@'.concat(a.author.username),
+                  to: '/'.concat(a.author.username),
                   children: (0, x.jsx)('img', {
                     src:
                       null !== (e = a.author.image) && void 0 !== e
@@ -77,7 +77,7 @@
                   className: 'info',
                   children: [
                     (0, x.jsx)(u.rU, {
-                      to: '/@'.concat(a.author.username),
+                      to: '/'.concat(a.author.username),
                       className: 'author',
                       children: a.author.username,
                     }),
@@ -188,4 +188,4 @@
     },
   },
 ]);
-//# sourceMappingURL=Article.61b18a50.chunk.js.map
+//# sourceMappingURL=Article.5a40205b.chunk.js.map
