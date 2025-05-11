@@ -2,7 +2,7 @@
   "name": "react-redux-realworld-example-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://theodoroesjoshua.github.io/angular-realworld-example-app/docs",
+  "homepage": ".",
   "devDependencies": {
     "@cypress/code-coverage": "^3.10.4",
     "@cypress/instrument-cra": "^1.4.0",
@@ -50,9 +50,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test:e2e": "start-test start:e2e :4100 cy:run",
-    "prepare": "husky install",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "prepare": "husky install"
   },
   "browserslist": [
     ">0.2%",

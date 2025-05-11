@@ -1,4 +1,4 @@
-/*! For license information please see main.71573ad9.js.LICENSE.txt */
+/*! For license information please see main.9b48c67b.js.LICENSE.txt */
 !(function () {
   var e = {
       7757: function (e, t, n) {
@@ -17,7 +17,7 @@
             null !==
               (r = {
                 NODE_ENV: 'production',
-                PUBLIC_URL: '/angular-realworld-example-app/docs',
+                PUBLIC_URL: '.',
                 WDS_SOCKET_HOST: void 0,
                 WDS_SOCKET_PATH: void 0,
                 WDS_SOCKET_PORT: void 0,
@@ -18897,7 +18897,7 @@
         Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
         Object.defineProperty(e, '__esModule', { value: !0 });
     }),
-    (n.p = '/angular-realworld-example-app/docs/'),
+    (n.p = './'),
     (function () {
       var e = { 179: 0 };
       (n.f.j = function (t, r) {
@@ -19679,4 +19679,4 @@
   })(),
     (r = n.O(r));
 })();
-//# sourceMappingURL=main.71573ad9.js.map
+//# sourceMappingURL=main.9b48c67b.js.map
