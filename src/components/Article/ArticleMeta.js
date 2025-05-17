@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { selectUser } from '../../features/auth/authSlice';
 
 import ArticleActions from './ArticleActions';
+import NonAuthorArticleActions from './NonAuthorArticleActions';
 
 /**
  * Show information about the current article
@@ -40,7 +41,11 @@ function ArticleMeta() {
         </time>
       </div>
 
-      {isAuthor ? <ArticleActions /> : null}
+      {isAuthor ? (
+        <ArticleActions />
+      ) : (
+        <NonAuthorArticleActions article={article} currentUser={currentUser} />
+      )}
     </div>
   );
 }

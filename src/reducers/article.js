@@ -1,4 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { follow, unfollow } from '../reducers/profile';
+
+import { favoriteArticle, unfavoriteArticle } from '../reducers/articleList';
 
 import agent from '../agent';
 
@@ -40,6 +43,7 @@ const initialState = {
   article: undefined,
   inProgress: false,
   errors: undefined,
+  favorited: undefined,
 };
 
 const articleSlice = createSlice({
@@ -49,6 +53,26 @@ const articleSlice = createSlice({
     articlePageUnloaded: () => initialState,
   },
   extraReducers: (builder) => {
+    builder.addCase(follow.fulfilled, (state, action) => {
+      state.article.author = action.payload.profile;
+      state.inProgress = false;
+    });
+
+    builder.addCase(unfollow.fulfilled, (state, action) => {
+      state.article.author = action.payload.profile;
+      state.inProgress = false;
+    });
+
+    builder.addCase(favoriteArticle.fulfilled, (state, action) => {
+      state.article = action.payload.article;
+      state.inProgress = false;
+    });
+
+    builder.addCase(unfavoriteArticle.fulfilled, (state, action) => {
+      state.article = action.payload.article;
+      state.inProgress = false;
+    });
+
     builder.addCase(getArticle.fulfilled, (state, action) => {
       state.article = action.payload.article;
       state.inProgress = false;

@@ -40,7 +40,7 @@ function EditProfileSettings() {
  * @example
  * <FollowUserButton username="warren_boyd" following />
  */
-function FollowUserButton({ username, following }) {
+export function FollowUserButton({ username, following }) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const currentUser = useSelector(selectUser);
@@ -57,7 +57,7 @@ function FollowUserButton({ username, following }) {
 
   const handleClick = () => {
     if (!currentUser) {
-      navigate.push(`/register?redirectTo=${location.pathname}`);
+      navigate('/login');
       return;
     }
 
