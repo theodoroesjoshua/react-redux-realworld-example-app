@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.d32556c0.js",
+    "main.js": "/static/js/main.70a72baa.js",
     "Article.js": "/static/js/Article.978435a9.chunk.js",
     "Editor.js": "/static/js/Editor.879133e2.chunk.js",
     "AuthScreen.js": "/static/js/AuthScreen.579e38da.chunk.js",
@@ -9,7 +9,7 @@
     "CommentSection.js": "/static/js/CommentSection.3181d803.chunk.js",
     "static/js/644.f257085e.chunk.js": "/static/js/644.f257085e.chunk.js",
     "index.html": "/index.html",
-    "main.d32556c0.js.map": "/static/js/main.d32556c0.js.map",
+    "main.70a72baa.js.map": "/static/js/main.70a72baa.js.map",
     "Article.978435a9.chunk.js.map": "/static/js/Article.978435a9.chunk.js.map",
     "Editor.879133e2.chunk.js.map": "/static/js/Editor.879133e2.chunk.js.map",
     "AuthScreen.579e38da.chunk.js.map": "/static/js/AuthScreen.579e38da.chunk.js.map",
@@ -18,5 +18,5 @@
     "CommentSection.3181d803.chunk.js.map": "/static/js/CommentSection.3181d803.chunk.js.map",
     "644.f257085e.chunk.js.map": "/static/js/644.f257085e.chunk.js.map"
   },
-  "entrypoints": ["static/js/main.d32556c0.js"]
+  "entrypoints": ["static/js/main.70a72baa.js"]
 }

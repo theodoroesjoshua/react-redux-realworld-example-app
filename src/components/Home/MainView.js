@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 import ArticleList from '../ArticleList';
 import { changeTab } from '../../reducers/articleList';
@@ -13,16 +14,21 @@ import { selectIsAuthenticated } from '../../features/auth/authSlice';
  */
 function YourFeedTab() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const isAuthenticated = useSelector(selectIsAuthenticated);
   const currentTab = useSelector((state) => state.articleList.tab);
   const isActiveTab = currentTab === 'feed';
 
-  if (!isAuthenticated) {
-    return null;
-  }
-
   const dispatchChangeTab = () => {
     dispatch(changeTab('feed'));
+  };
+
+  const handleClick = () => {
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
+    dispatchChangeTab;
   };
 
   return (
@@ -30,7 +36,7 @@ function YourFeedTab() {
       <button
         type="button"
         className={isActiveTab ? 'nav-link active' : 'nav-link'}
-        onClick={dispatchChangeTab}
+        onClick={handleClick}
       >
         Your Feed
       </button>

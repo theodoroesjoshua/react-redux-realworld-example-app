@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import React, { memo } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { FollowUserButton } from '../Profile';
 import { favoriteArticle, unfavoriteArticle } from '../../reducers/articleList';
 

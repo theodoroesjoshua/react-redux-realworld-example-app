@@ -1,4 +1,4 @@
-/*! For license information please see main.d32556c0.js.LICENSE.txt */
+/*! For license information please see main.70a72baa.js.LICENSE.txt */
 !(function () {
   var e = {
       7757: function (e, t, n) {
@@ -19038,21 +19038,21 @@
     var c = (0, r.memo)(u),
       s = n(143);
     function f() {
-      var e = (0, t.I0)(),
+      (0, t.I0)();
+      var e = (0, a.s0)(),
         n = (0, t.v9)(i.vN),
         r =
           'feed' ===
           (0, t.v9)(function (e) {
             return e.articleList.tab;
           });
-      if (!n) return null;
       return (0, l.jsx)('li', {
         className: 'nav-item',
         children: (0, l.jsx)('button', {
           type: 'button',
           className: r ? 'nav-link active' : 'nav-link',
           onClick: function () {
-            e((0, o.$5)('feed'));
+            n || e('/login');
           },
           children: 'Your Feed',
         }),
@@ -19698,4 +19698,4 @@
   })(),
     (r = n.O(r));
 })();
-//# sourceMappingURL=main.d32556c0.js.map
+//# sourceMappingURL=main.70a72baa.js.map
